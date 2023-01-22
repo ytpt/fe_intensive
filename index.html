@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE Intensive</title>
+    <meta name="description" content="Study hard to get your dream">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+    <div class="app" id="app">
+        <header class=" app__header header">
+            <div class="header__container container">
+                <a class="header__logo" href="#app">
+                    <img class="header__logo__img" src="img/logo.svg" alt="system" width="190" height="32">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#app" class="header__menu-link">Домой</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#features" class="header__menu-link">Особенности</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#benefits" class="header__menu-link">Преимущества</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="app__main">
+            <section class="hero">
+                <div class="hero__container container">
+                    <div class="hero__content">
+                        <figure class="hero__figure">
+                            <img class="hero__image" src="img/hero_1.jpg" alt="Разработано 2000+ приложений">
+                        </figure>
+                        <div class="hero__text">
+                            <h1 class="hero__title">Разработано 2000+ приложений</h1>
+                            <div class="hero__subtitle">
+                                Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, которые доступны в любое время суток
+                            </div>
+                            <button class="hero__button">Присоединяйтесь</button>
+                        </div>
+                    </div>
+                    <div class="hero__dots">
+                        <span class="hero__dot active"></span>
+                        <span class="hero__dot"></span>
+                        <span class="hero__dot"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="features" id="features">
+                <div class="features__container container">
+                    <div class="features__nav">
+                       <div class="features__nav-item active">
+                            Для бизнеса
+                       </div>
+                       <div class="features__nav-item">
+                            Для колл-центров
+                       </div>
+                       <div class="features__nav-item">
+                            Облачные хранилища
+                       </div>
+                    </div>
+                    <div class="features__list">
+                        <div class="features__item active">
+                            <p class="features__item-caption">Создаем кастомизированные программы и сервисы для развития управленческих команд в российских и международных компаниях</p>
+                        </div>
+                        <div class="features__item">
+                            <p class="features__item-caption">Помогаем руководителям и командам колл-центров создать полный цикл по поддержке клиентов и организовать контроль качества</p>
+                        </div>
+                        <div class="features__item">
+                            <p class="features__item-caption">Разрабатываем локальные защищенные корпоративные хранилища, а также осуществляем поддержку на протяжении всего времени пользования</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits" id="benefits">
+                <div class="benefints__container container">
+                    <h2>Преимущества</h2>
+                    <div class="benefits-list">
+                        <div class="benefints__item">
+                            <figure>
+                                <img class="benefits__item-image" src="img/benefits_1.jpg" alt="Поддержка 24/7">
+                            </figure>
+                            <h3 class="benefits__item-title">Поддержка 24/7</h3>
+                            <p class="benefits__item-caption">Вы можете положиться на нашу круглосуточную поддержку, которая решит любой вопрос в течении часа</p>
+                        </div>
+                        <div class="benefints__item">
+                            <figure class="benefits__item-figure">
+                                <img class="benefits__item-image" src="img/benefits_2.jpg" alt="Гарантия возврата">
+                            </figure>
+                            <h3 class="benefits__item-title">Гарантия возврата</h3>
+                            <p class="benefits__item-caption">Если вам не понравится сервис, мы вернем вам полную стоимость в течении 30-дневного периода</p>
+                        </div>
+                    </div>
+                    <div class="benefints__item">
+                        <figure class="benefits__item-figure">
+                            <img class="benefits__item-image" src="img/benefits_3.jpg" alt="Удобство и простота">
+                        </figure>
+                        <h3 class="benefits__item-title">Удобство и простота</h3>
+                        <p class="benefits__item-caption">Все наши сервисы и приложения интуитивно понятны для пользователей всех уровней</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__copyright">
+                    2000-2022 © System
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#Facebook" target="_blank" rel="noopener noreferrer" title="Facebook">
+                        <svg class="footer__social-icon" width="15" height="24" src="img/facebook-icon.svg" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.50059 24L4.46645 13.5H0V9H4.46645V6C4.46645 1.9512 6.95503 0 10.5399 0C12.2571 0 13.7329 0.128805 14.163 0.186375V4.4176L11.6767 4.41874C9.72709 4.41874 9.34958 5.35215 9.34958 6.72186V9H14.8882L13.3994 13.5H9.34957V24H4.50059Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="#Twitter" target="_blank" rel="noopener noreferrer" title="Twitter" class="footer__social-link">
+                        <svg class="footer__social-icon" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M24 2.2669C23.1 2.72028 22.2 2.87141 21.15 3.02253C22.2 2.41803 22.95 1.51127 23.25 0.302253C22.35 0.90676 21.3 1.20901 20.1 1.51127C19.2 0.604506 17.85 0 16.5 0C13.95 0 11.7 2.2669 11.7 4.98718C11.7 5.44056 11.7 5.74281 11.85 6.04507C7.8 5.89394 4.05 3.92929 1.65 0.90676C1.2 1.66239 1.05 2.41803 1.05 3.47591C1.05 5.13831 1.95 6.64957 3.3 7.55633C2.55 7.55633 1.8 7.25408 1.05 6.95183C1.05 9.36985 2.7 11.3345 4.95 11.7879C4.5 11.939 4.05 11.939 3.6 11.939C3.3 11.939 3 11.939 2.7 11.7879C3.3 13.7525 5.1 15.2638 7.35 15.2638C5.7 16.6239 3.6 17.3796 1.2 17.3796C0.75 17.3796 0.45 17.3796 0 17.3796C2.25 18.7397 4.8 19.6465 7.5 19.6465C16.5 19.6465 21.45 12.0901 21.45 5.59169C21.45 5.44056 21.45 5.13831 21.45 4.98718C22.5 4.23155 23.4 3.32479 24 2.2669Z" fill="currentColor"/>
+                        </svg>                
+                    </a>
+                    <a href="#Instagram" target="_blank" rel="noopener noreferrer" title="Instagram" class="footer__social-link">
+                        <svg class="footer__social-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.2175 7.27795C19.0128 7.27795 19.6575 6.63324 19.6575 5.83795C19.6575 5.04266 19.0128 4.39795 18.2175 4.39795C17.4222 4.39795 16.7775 5.04266 16.7775 5.83795C16.7775 6.63324 17.4222 7.27795 18.2175 7.27795Z" fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12C6 15.309 8.691 18 12 18C15.309 18 18 15.309 18 12C18 8.691 15.309 6 12 6C8.691 6 6 8.691 6 12ZM9 12C9 10.3455 10.3455 9 12 9C13.6545 9 15 10.3455 15 12C15 13.6545 13.6545 15 12 15C10.3455 15 9 13.6545 9 12Z" fill="currentColor" />
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M6 24H18C21.084 24 24 21.084 24 18V6C24 2.916 21.084 0 18 0H6C2.916 0 0 2.916 0 6V18C0 21.084 2.916 24 6 24ZM3 6C3 4.5975 4.5975 3 6 3H18C19.4025 3 21 4.5975 21 6V18C21 19.4025 19.4025 21 18 21H6C4.5705 21 3 19.4295 3 18V6Z" fill="currentColor" />
+                        </svg>                
+                      </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
